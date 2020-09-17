@@ -26,6 +26,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Remove="ClientApp\src\app\book\books.component.ts" />
     <None Remove="ClientApp\src\app\Ciudad\Ciudad.component.ts" />
     <None Remove="ClientApp\src\app\home\home.component.ts" />
     <None Remove="ClientApp\src\app\interfaces\Persona.ts" />
@@ -34,12 +35,14 @@
     <None Remove="ClientApp\src\app\nav\nav.component.ts" />
     <None Remove="ClientApp\src\app\pueblo\pueblo.componen.ts" />
     <None Remove="ClientApp\src\app\register\register.component.ts" />
+    <None Remove="ClientApp\src\app\services\books.service.ts" />
     <None Remove="ClientApp\src\app\services\Register.service.ts" />
     <None Remove="ClientApp\src\app\services\Usuario.service.ts" />
     <None Remove="ClientApp\src\app\Usuario\Usuario.component.ts" />
   </ItemGroup>
 
   <ItemGroup>
+    <TypeScriptCompile Include="ClientApp\src\app\book\books.component.ts" />
     <TypeScriptCompile Include="ClientApp\src\app\Ciudad\Ciudad.component.ts" />
     <TypeScriptCompile Include="ClientApp\src\app\home\home.component.ts" />
     <TypeScriptCompile Include="ClientApp\src\app\interfaces\Persona.ts" />
@@ -48,6 +51,7 @@
     <TypeScriptCompile Include="ClientApp\src\app\nav\nav.component.ts" />
     <TypeScriptCompile Include="ClientApp\src\app\pueblo\pueblo.componen.ts" />
     <TypeScriptCompile Include="ClientApp\src\app\register\register.component.ts" />
+    <TypeScriptCompile Include="ClientApp\src\app\services\books.service.ts" />
     <TypeScriptCompile Include="ClientApp\src\app\services\Usuario.service.ts" />
     <TypeScriptCompile Include="ClientApp\src\app\services\Register.service.ts" />
     <TypeScriptCompile Include="ClientApp\src\app\Usuario\Usuario.component.ts" />

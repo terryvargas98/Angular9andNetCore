@@ -12,6 +12,8 @@ import { RegisterService } from './services/Register.service';
 import { HttpClientModule } from '@angular/common/http';
 import { UsuarioService } from './services/Usuario.service';
 import { UsuarioComponent } from './Usuario/Usuario.component';
+import { BooksComponent } from './book/books.component';
+import { BookService } from './services/books.service';
 @NgModule({
   declarations: [
     AppComponent,
@@ -20,6 +22,7 @@ import { UsuarioComponent } from './Usuario/Usuario.component';
     PuebloComponent,
     CiudadComponent,
     UsuarioComponent,
+    BooksComponent
   ],
   imports: [
     BrowserModule,
@@ -29,7 +32,7 @@ import { UsuarioComponent } from './Usuario/Usuario.component';
  
 
   ],
-  providers: [RegisterService, UsuarioService],
+  providers: [RegisterService, BookService, UsuarioService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
